@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#F5F8FF]">
+
+<header>
+      <nav class="max-w-[1140px] mx-auto flex justify-between items-center py-30 px-150 md:px-0">
+    <div class="flex items-center space-x-2">
+      <img class="lg:w-[135px] lg:h-[82px] md:w-[63px] h-[38px] " src="/assets/logo.png" alt="Logo" />
+
+      
+    </div>
+    <div class="hidden md:flex space-x-6 text-gray-600 text-sm">
+      <a href="#" class="font-semibold text-black">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About us</a>
+    </div>
+
+    
+    <div class="flex items-center space-x-2">
+      <span class="text-sm md:text-base">Cart ($56)</span>
+    </div>
+  </nav>
+
+</header>
+
+<main>
+  <section class="bg-[#F5F8FF]  flex items-center justify-center min-h-screen pr-[150px] pl-[150px] h-[461px]">
+  <div class="max-w-6xl w-full bg-[#F5F8FF]  rounded-lg grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
+    
+    <div  >
+      <h1 class="text-[36px] sm:text-[50px]  font-bol">
+        <span class="text-black">ALWAYS</span>
+        <span class="text-orange-600"> FRESH</span>
+        <br>
+        <span class="text-orange-600">FLOWERS</span>
+      </h1>
+      <p class="mt-4 text-gray-600 text-xl font-normal ">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop.
+        From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+        that are perfect for any occasion.
+      </p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="flex justify-center">
+      <img src="/assets/hero-flower.png" alt="Flowers" class="w-[570px] h-[355px] ">
+    </div>
+
+  </div>
+</section>
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
+
     
 </body>
 </html>
