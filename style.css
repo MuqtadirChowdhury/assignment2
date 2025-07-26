@@ -12,7 +12,7 @@
     height: 322px;
 }
 
-
+/* plant details  */
 .plantlover{
     margin: 0 auto;
     display: flex;
@@ -42,4 +42,68 @@
 .color-gray{
     color: gray;
     font-weight: 500;
+}
+/* new section */
+.latest{
+text-align: center;
+margin-top: 80px;
+
+}
+.latest1{
+    font-size: 50px;
+
+}
+.descrip-3{
+    color: gray;
+    margin-top: -20px;
+}
+.deal-grid {
+  display: flex;
+  margin-top: 60px;
+  gap:8px;
+  justify-content: center;
+
+}
+.pictures{
+display: flex;
+flex-direction: column;
+gap: 29px;
+
+}
+.deal-item {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.deal-item.small {
+  width: 250px;
+  height: 200px;
+  
+}
+.deal-item.large {
+  width: 550px;
+  height: 430px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.overlay h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.overlay a{
+text-decoration: underline;
+color: white;
+
 }
