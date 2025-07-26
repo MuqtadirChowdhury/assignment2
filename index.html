@@ -6,6 +6,7 @@
   <title>Responsive Navbar</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/style.css" >
+  
 </head>
 <body class="bg-[#F5F8FF]">
 
@@ -16,7 +17,7 @@
 
       
     </div>
-    <div class="hidden md:flex space-x-6 text-gray-600 text-sm">
+    <div class="hidden md:flex space-x-6 text-gray-600 text-sm navlist ">
       <a href="#" class="font-semibold text-black">Home</a>
       <a href="#">Shop</a>
       <a href="#">About us</a>
@@ -24,7 +25,7 @@
 
     
     <div class="flex items-center space-x-2">
-      <span class="text-sm md:text-base">Cart ($56)</span>
+      <span class="text-sm md:text-base ">Cart ($56)</span>
     </div>
   </nav>
 
@@ -35,7 +36,7 @@
   <div class="max-w-6xl w-full bg-[#F5F8FF]  rounded-lg grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
     
     <div  >
-      <h1 class="text-[36px] sm:text-[50px]  font-bol">
+      <h1 class="text-[36px] sm:text-[50px]  font-bold">
         <span class="text-black">ALWAYS</span>
         <span class="text-orange-600"> FRESH</span>
         <br>
@@ -56,58 +57,58 @@
 </section>
 <section>
   <div>
-    <h1 class="text-line">Our Plants</h1>
-    <p class="text-line">Indulge your senses with the beauty and fragrance of our fresh flower shop. From </p>
-    <p class="text-line"> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    <h1 class="text-line plant"><span class="clr-o">Our</span> Plants</h1>
+    <p class="text-line style">Indulge your senses with the beauty and fragrance of our fresh flower shop. From </p>
+    <p class="text-line style"> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
   </div>
- <div class="grid grid-cols-4 text-line padding">
+ <div class="cards">
    <div>
     <img src="/assets/sample-flower-image.png">
-    <p >Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png" height="322px" width="270px">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
   <div>
     <img src="/assets/sample-flower-image.png">
-    <p>Lily Blossom</p>
-    <p>20 USD</p>
-    <button> ADD TO CART</button>
+    <p  class="lily">Lily Blossom</p>
+    <p class="price">20 USD</p>
+    <button class="btn-primary"> ADD TO CART</button>
   </div>
  </div>
 </section>
@@ -131,7 +132,6 @@
 </div>
 
 </section>
-<section>
   <section>
 <div class="latest">
 <div>
@@ -162,16 +162,59 @@
   </div>
 
 
+</div>
+</section>
+<section>
+  <div class="container">
+<div class="background-work" style="background-image: url('/assets/news-letter-bg.png');height: 300px; background-size: cover;">
+    <h2 class="font2 ">Join the colorful Bunch</h2>
+ <input class="box " type="email" placeholder="Write email"><submit class="btn-primary container">Subscribe</submit></div>
+</div>
+
+
 
 </div>
 </section>
-
-</section>
-
 </main>
-<footer>
+<footer class="flex2">
+ <div class="ftr-design">
+<img src="/assets/logo.png" alt="logo">
+    <p class="color-gray">Indulge your senses with the beauty and fragrance of our fresh flower shop.  </p> 
+ </div>
+ <div>
+<ul class="ftr-list color-gray">
+<li>Home</li><br>
+<li>About us</li><br>
+<li>Blog</li><br>
+<li>Faq</li><br>
+<li>Contact us</li>
+
+</ul>
+
+</div>
+<div>
+<ul class="ftr-list color-gray">
+    <li>Features</li> <br>   
+    <li>Pricing</li><br>
+    <li>Privacy Policy</li><br>
+    <li>Terms of service</li><br>
+    <li>Help center</li>
+
+</ul>
+
+
+</div>
+<div class="flex logos">
+<a href="#"> <img src="/assets/icon-linkedin.png" alt=""> </a>
+<a href="#"> <img src="/assets/icon-facebook.png" alt=""> </a>
+<a href="#"> <img src=" /assets/icon-twitter.png" alt=""> </a>
+<a href="#"> <img src="/assets/icon-youtube.png" alt=""> </a>
+
+</div>
+
 
 </footer>
+
 </body>
 </html>
 
