@@ -1,0 +1,13 @@
+.text-line{
+    text-align: center;
+    align-items: center;
+}
+.padding{
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 20px;
+}
+.img{
+    width: 270px;
+    height: 322px;
+}
